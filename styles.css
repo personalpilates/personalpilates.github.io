@@ -6,23 +6,21 @@ body, html {
     font-family: Arial, sans-serif;
 }
 
-.link-hub {
-    background-image: url('PersonalPilatesPB.png'); /* Replace with your image URL */
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    display: flex;
-    justify-content: center;
+.link-hub {            
+    background-color: none; /* Slight white overlay */
     align-items: center;
 }
 
 .content {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8); /* Slight white overlay */
+    background-color: none; /* Slight white overlay */
     padding: 20px;
     border-radius: 10px;
 }
 
+img{
+    max-height: 250px;
+}
 h1 {
     font-size: 2em;
     margin-bottom: 20px;
@@ -35,16 +33,30 @@ h1 {
 }
 
 .links li {
-    margin: 10px 0;
+    margin: 10px 0;    
+}
+
+.links li *{
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .links a {
     text-decoration: none;
     font-size: 1.2em;
-    color: #007BFF;
+    color: #000000;
     transition: color 0.3s ease;
+    vertical-align: middle;
 }
 
 .links a:hover {
     color: #0056b3;
+}
+.social-links img {
+    margin: 10px;
+    transition: transform 0.2s;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
 }
