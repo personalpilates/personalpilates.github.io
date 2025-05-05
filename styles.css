@@ -19,7 +19,7 @@ body, html {
 }
 
 img{
-    max-height: 250px;
+    max-height: 400px;
 }
 h1 {
     font-size: 2em;
@@ -52,11 +52,15 @@ h1 {
 .links a:hover {
     color: #0056b3;
 }
-.social-links img {
+.social-links img{
     margin: 10px;
+}
+.social-links li
+ {
     transition: transform 0.2s;
 }
 
-.social-links img:hover {
+.social-links li:hover
+{    
     transform: scale(1.1);
 }
