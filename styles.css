@@ -50,16 +50,15 @@ h1 {
 }
 
 .links a:hover {
-    color: #0056b3;
+    color: #ffffff;
 }
 .social-links img{
     margin: 10px;
 }
 .social-links li
- {
+{
     transition: transform 0.2s;
 }
-
 .social-links li:hover
 {    
     transform: scale(1.1);
@@ -67,27 +66,23 @@ h1 {
 
 
 
-/* Dark mode styles
+/* Dark mode styles */
 @media (prefers-color-scheme: dark) {
-    body, html {
-        background-color: #121212;
-        color: #ffffff;
-    }
 
-    .content {
-        background-color: #1e1e1e;
-        border: 1px solid #333;
+    img {
+        filter: invert(0.5);
+      }
+    body, html {
+        
+        color: rgba(255, 255, 255, 0.5);
     }
 
     h1 {
-        color: #ffffff;
+        color: inherit
     }
 
     .links a {
-        color: #ffffff;
+        color: inherit
     }
 
-    .links a:hover {
-        color: #1e90ff;
-    }
-}*/
+}
