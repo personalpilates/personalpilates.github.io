@@ -4,6 +4,8 @@ body, html {
     padding: 0;
     height: 100%;
     font-family: Arial, sans-serif;
+    background-color: white;
+    color: #999;
 }
 
 .link-hub {            
@@ -20,11 +22,6 @@ body, html {
 
 img{
     max-height: 400px;
-}
-h1 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    color: #333;
 }
 
 .links {
@@ -44,13 +41,13 @@ h1 {
 .links a {
     text-decoration: none;
     font-size: 1.2em;
-    color: #000000;
+    color: #999;
     transition: color 0.3s ease;
     vertical-align: middle;
 }
 
 .links a:hover {
-    color: #ffffff;
+    color: #00eeff;
 }
 .social-links img{
     margin: 10px;
@@ -63,18 +60,20 @@ h1 {
 {    
     transform: scale(1.1);
 }
-
+img {
+    filter: invert(50%);
+  }
 
 
 /* Dark mode styles */
 @media (prefers-color-scheme: dark) {
 
     img {
-        filter: invert(0.5);
+        filter: invert(50%);
       }
     body, html {
-        
-        color: rgba(255, 255, 255, 0.5);
+        background-color: #000000;        
+        color: #999;
     }
 
     h1 {
