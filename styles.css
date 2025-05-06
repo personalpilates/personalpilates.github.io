@@ -47,7 +47,7 @@ img{
 }
 
 .links a:hover {
-    color: #00eeff;
+    color: #0ef;
 }
 .social-links img{
     margin: 10px;
@@ -74,14 +74,10 @@ img {
     body, html {
         background-color: #000000;        
         color: #999;
-    }
-
-    h1 {
-        color: inherit
-    }
+    }    
 
     .links a {
-        color: inherit
+        color: #999;
     }
 
 }
