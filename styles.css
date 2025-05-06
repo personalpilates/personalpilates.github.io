@@ -64,3 +64,30 @@ h1 {
 {    
     transform: scale(1.1);
 }
+
+
+
+/* Dark mode styles
+@media (prefers-color-scheme: dark) {
+    body, html {
+        background-color: #121212;
+        color: #ffffff;
+    }
+
+    .content {
+        background-color: #1e1e1e;
+        border: 1px solid #333;
+    }
+
+    h1 {
+        color: #ffffff;
+    }
+
+    .links a {
+        color: #ffffff;
+    }
+
+    .links a:hover {
+        color: #1e90ff;
+    }
+}*/
